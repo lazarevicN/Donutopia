@@ -1,5 +1,5 @@
 window.onload = function(){
-    var strana = window.location.pathname;
+    var strana = window.location.href;
     if(strana == "https://lazarevicn.github.io/Donutopia/" || strana == "/products.html" || strana == "/order.html" || strana =="/author.html" || strana == "/cart.html" || strana == "/Donutopia/index.html" || strana == "/Donutopia/products.html" || strana == "/Donutopia/order.html" || strana =="/Donutopia/author.html" || strana == "/Donutopia/cart.html"){
         napraviZaglavlje();
         urediPTagoveLokacije();
