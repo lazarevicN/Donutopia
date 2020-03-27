@@ -1,0 +1,30 @@
+[
+    {
+        "putanja":"index.html",
+        "opis":"OUR PLACE"
+    },
+    {
+        "putanja":"products.html",
+        "opis":"DONUTS"
+    },
+    {
+        "putanja":"order.html",
+        "opis":"DELIVERY"
+    },
+    {
+        "putanja":"#",
+        "opis":"<img src='img/logo.png' alt='logo'"
+    },
+    {
+        "putanja":"author.html",
+        "opis":"DESIGNER OF DONUTOPIA"
+    },
+    {
+        "putanja":"cart.html",
+        "opis":"<i class='fas fa-shopping-basket'></i>"
+    },
+    {
+        "putanja":"#",
+        "opis":"<i id='lokacija' class='fas fa-map-marker-alt'></i>"
+    }
+]

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Nikola Lazarevic" />
+    <meta name="description" content="Here you can see the informations about ordering and delivering your favorite donuts right infront of your door!" />
+    <meta name="keywords" content="Donuts, donuts, orders, delivery, order, deliveries, Donutopia, price, ordering, delivering, favorite" />
+    <link rel="shortcut icon" href="img/shortcutLogo.png" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css?family=Englebert&display=swap" rel="stylesheet">
+    <title>Donutopia - Delivery informations</title>
+    <link type="text/css" href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href ="css/queris.css" type="text/css" />
+</head>
+<body>
+    <div id="pozadinskaSlikaPorudzbina" class="pozadinskeSlike">
+        <div id="hamburger">
+            <i class="fas fa-bars obojiUBelo"></i>
+        </div>
+        <nav id="zaglavlje">
+        </nav>
+        <div id="prikaziLokaciju" class="obojiUBelo">
+            <p  id="zatvoriIkonica" class="donjaMarginaLokacije"><i class="fas fa-times"></i></p>
+            <h2 class="levaMarginaLokacije fontSizeH2 obojiUBelo">Vracar, Belgrade</h2>
+            <p class="donjaMarginaLokacije gornjaMarginaPTagovaLokacije">The place where all started...</p>
+            <p class="gornjaMarginaPTagovaLokacije">
+                <i class="fas fa-map-marker-alt"></i>
+                <a href="https://www.google.rs/maps/place/%D0%93%D0%BE%D0%BB%D1%81%D0%B2%D0%BE%D1%80%D0%B4%D0%B8%D1%98%D0%B5%D0%B2%D0%B0,+%D0%91%D0%B5%D0%BE%D0%B3%D1%80%D0%B0%D0%B4/@44.8037297,20.4752162,17z/data=!3m1!4b1!4m5!3m4!1s0x475a7a9fb8ed70b1:0xb90d4d08d559ba1f!8m2!3d44.8037297!4d20.4774049">Golsvordijeva 50, Vracar</a>
+            </p>
+            <p class="gornjaMarginaPTagovaLokacije">
+                <i class="fas fa-phone-volume"></i>
+                <a href="#"> +381 60 0081 123</a>
+            </p>
+        </div>
+        <div id="harmonijaUkusa" class="rasporediVertikalno">
+            <h1 class="obojiUBelo">Orders and delivery</h1>
+            <h2 class="obojiUBelo">...check out infos if you want to order</h2>
+            <p><a href="order.html#mainPorudzbina"><i class="fas fa-arrow-circle-down obojiUBelo"></i></a></p>
+        </div>
+    </div>
+    <main class="sirina1002 sadrzajMain" id="mainPorudzbina">
+        <div class="rasporediVertikalno">
+            <header class="centrirajZaglavljeNaResponsivu">
+                <h2 class="nasloviSadrzaja obojiUBelo"><span class="oznaciTekstNaslova">Create</span> sweet <span class="oznaciTekstNaslova">moments</span> for your loved ones</h2>
+            </header>
+            <div class="sirina70">
+                <p class="urediTekstSadrzaja fontSize20 obojiUBelo">
+                    Whether you are planning a birthday party, a surprise party for a friend or some big celebration - Donutopia team is here to help. All you have to do is call us a few days early and help us decide if specially made and decorated donuts are the right choice for you, or whether it is from our diverse menu.
+                </p>
+            </div>
+            <div class="rasporediHorizontalnoBezCentriranja sirina100" id="krofnePorudzbina">
+                <div class="srediSlikuKrofnePorudzbine">
+                    <img src="img/porudzbineSlavlja.png" alt="Donut for parties 1"/>
+                </div>
+                <div class="srediSlikuKrofnePorudzbine">
+                    <img src="img/minionPorudzbine.png" alt="Minion donut for kids"/>                
+                </div>
+                <div class="srediSlikuKrofnePorudzbine">
+                    <img src="img/porudzbineSlavlja2.png" alt="Donut for parties 2"/>                
+                </div>
+            </div>
+        </div>
+        <div class="rasporediHorizontalno obojiPozadinuPlavo" id="koraciPorucivanja">
+        </div>
+        <div class="rasporediVertikalno">
+            <header>
+                <h2 class="nasloviSadrzaja obojiUBelo">Delivery</h2>
+            </header>
+            <div class="sirina70">
+                <p class="urediTekstSadrzaja fontSize20 obojiUBelo">
+                    Unless you can stop by and take your sweet daily dose personally - no problem! In cooperation with the courier service "Star", we also provide a service of delivery of all products from our menu. Delivery is possible from Monday to Saturday from 8:00 to 22:00, Sunday from 12:00 to 22:00. Call us on our phone number +381 60 0081 123.
+                </p>
+            </div>
+        </div>
+        <div id="drugaPozadinskaSlikaPorudzbina" class="pozadinskeSlike"></div>
+        <div class="rasporediVertikalno" id="forma">
+            <header class="rasporediHorizontalno sirina100">
+                <a href="#forma"><h2 id="dostava" class="nasloviSadrzaja obojiUBelo aktivan">Delivery</h2></a>
+                <a href="#forma"><h2 id="kontaktiraj" class="nasloviSadrzaja obojiUBelo">Contact</h2></a>
+            </header>
+            <form class="rasporediVertikalno sirina70" id="formaDostave">
+                <div class="sirina100 margineZaFormu">
+                    <input type="text" name="ime" id="ime" class="staviMarginuResponsive sirina45  borderRadius urediInputeForme" placeholder="Enter your name here..." />
+                    <input type="text" name="prezime" id="prezime" class=" staviMarginuResponsive sirina45  borderRadius urediInputeForme" placeholder="Enter your last name here..." />
+                    <p id="greskaImenaIPrezimena" class="obojiCrvenomIspisGreske fontSize18"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <input type="email" name="email" id="email" class="staviMarginuResponsive sirina90  borderRadius urediInputeForme" placeholder="Enter your email here..." />
+                    <p id="greskaEmaila" class="obojiCrvenomIspisGreske fontSize18"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <input type="text" name="grad" id="grad" class="staviMarginuResponsive sirina90  borderRadius urediInputeForme" placeholder="Enter your city here..." />
+                    <p id="greskaGrada" class="obojiCrvenomIspisGreske fontSize18"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <input type="text" name="ulica" id="ulica" class="staviMarginuResponsive sirina45  borderRadius urediInputeForme" placeholder="Enter your street and number here..." />
+                    <input type="text" name="postanskiBr" id="postanskiBr" class="staviMarginuResponsive sirina45  borderRadius urediInputeForme" placeholder="Enter your postal code here..." />
+                    <p id="greskaUliceIPostanskogBr" class="obojiCrvenomIspisGreske fontSize18"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <input type="text" name="telefon" id="telefon" class="staviMarginuResponsive sirina90  borderRadius urediInputeForme" placeholder="Enter your phone number here..." />
+                    <p class="obojiCrvenomIspisGreske fontSize18" id="greskaTelefona"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <input type="button" name="submit" id="tasterSubmit" class="obojiUBelo borderRadius urediTaster urediInputeForme" value="SEND" />
+                </div>
+                <div class="sirina100 rasporediHorizontalno porukaForme" id="porukaFormeDostava">
+                    <h3 class="urediTekstSadrzaja fontSize20 oznaciTekstNaslova">You have successfully sent us your location! In a couple of minute, be sure to checkout your email and confirm your order!</h3>
+                </div>
+            </form>
+            <form class="rasporediVertikalno sirina70" id="formaKontakta">
+                <div class="sirina100 margineZaFormu">
+                    <input type="text" name="ime" id="imeKontakt" class="staviMarginuResponsive sirina45  borderRadius urediInputeForme" placeholder="Enter your name here..." />
+                    <input type="text" name="prezime" id="prezimeKontakt" class="staviMarginuResponsive sirina45  borderRadius urediInputeForme" placeholder="Enter your last name here..." />
+                    <p id="greskaImenaIPrezimenaKontakt"  class="obojiCrvenomIspisGreske fontSize18"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <input type="email" name="email" id="emailKontakt" class="staviMarginuResponsive sirina90  borderRadius urediInputeForme" placeholder="Enter your email here..." />
+                    <p id="greskaEmailaKontakt"  class="obojiCrvenomIspisGreske fontSize18"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <textarea id="porukaZaKontakt" class="staviMarginuResponsive borderRadius urediInputeForme" placeholder="Feel free to enter any question here..."></textarea>
+                    <p id="greskaPorukeKontakt" class="obojiCrvenomIspisGreske fontSize18"></p>
+                </div>
+                <div class="sirina100 margineZaFormu">
+                    <input type="button" name="submit" id="tasterSubmitKontakt" class="obojiUBelo borderRadius urediTaster urediInputeForme" value="SEND" />
+                </div>
+                <div class="sirina100 rasporediHorizontalno porukaForme" id="porukaFormeKontakt">
+                    <h3 class="urediTekstSadrzaja fontSize20 oznaciTekstNaslova">You have successfully sent us your questions! In a couple of minute, we will contact you back on your email and answer your questions!</h3>
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer class="rasporediVertikalno sirina100" id="futer">
+        <header>
+            <h3 class="nasloviSadrzaja obojiUBelo">"Make a customer, not a sale!"</h3>
+        </header>
+        <div id="futerInfo" class="rasporediHorizontalno sirina100">
+            <div id="socijalneMreze" class="rasporediVertikalno">
+                <h6 class="obojiUBelo fontSizeH2">Find us on our social medias</h6>
+            </div>
+            <div id="kontakt" class="rasporediVertikalno">
+                <h6 class="obojiUBelo fontSizeH2">Feel free to contact us</h6>
+                <p class="obojiUBelo"> 
+                    <i class="fas fa-phone-volume obojiUBelo"></i>
+                    <a href="#" class="obojiUBelo fontSize20"> +381 60 0081 123</a>
+                </p>
+                <p class="obojiUBelo">
+                    <a href="mailto:donutopia@gmail.com" class="obojiUBelo fontSize20">donutopia@gmail.com</a>
+                </p>
+            </div>
+            <div id="dokumentacija" class="rasporediVertikalno">
+                <h6 class="obojiUBelo fontSizeH2">Documentation</h6>
+            </div>
+        </div>
+        <div id="designedBy" class="rasporediVertikalno sirina90">
+            <div class=" rasporediHorizontalno">
+                <p class="obojiUBelo fontSize20">Designed By <a href="https://github.com/lazarevicN" class="obojiUBelo">Nikola Lazarevic</a></p>
+                <p class="obojiUBelo fontSize20">&copy;Copyright 2020</p>
+            </div>
+            <div id="ispisJsona" class="sirina70">
+                <ul class="rasporediHorizontalno" id="jsonMargina">
+                    <li><a href="data/products.json" class="obojiUBelo">ProizvodJSON</a></li>
+                    <li><a href="data/menu.json" class="obojiUBelo">MenuJSON</a></li>
+                    <li><a href="data/orderInfo.json" class="obojiUBelo">OrderInfoJSON</a></li>
+                    <li><a href="data/vrsteKrofni.json" class="obojiUBelo">VrsteKrofniJSON</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

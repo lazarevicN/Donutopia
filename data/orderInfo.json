@@ -1,0 +1,26 @@
+[
+    {
+        "slika":{
+            "src":"img/1.png",
+            "alt":"First step of order"
+        },
+        "naslov":"Select the product you want to order",
+        "opis":"Order specially designed and decorated donuts (minimum four donuts)"
+    },
+    {
+        "slika":{
+            "src":"img/2.png",
+            "alt":"Second step of order"
+        },
+        "naslov":"We create magic that is remembered",
+        "opis":"Tell us what kind of decoration you want, and ours is to make your idea come true"
+    },
+    {
+        "slika":{
+            "src":"img/3.png",
+            "alt":"Third step of order"
+        },
+        "naslov":"Stop by us or we will find you",
+        "opis":"When your order is ready, it will wait for you at the Donutopia or send it to your desired address"
+    }
+]

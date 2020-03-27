@@ -1,0 +1,416 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family:Englebert;
+}
+a{
+    text-decoration: none;
+}
+#hamburger{
+    display:none;
+}
+.rasporediHorizontalno {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.rasporediHorizontalnoBezProstora{
+    display:flex;
+    align-items:center;
+}
+.rasporediVertikalno {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.rasporediVertikalnoBezCentriranja {
+    display:flex;
+    flex-direction: column;
+}
+.rasporediHorizontalnoBezCentriranja {
+    display:flex;
+    justify-content:space-around;
+}
+.obojiUBelo{
+    color:white;
+}
+.pozadinskeSlike{
+    height:100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    z-index:1;
+}
+#pozadinskaSlikaIndexa{
+    background-image: url("../img/pozadinskaSlika.jpg");
+}
+#zaglavlje{
+    width:100%;
+    position:relative;
+    height:auto;
+    top:-500px;
+}
+#zaglavlje ul {
+    list-style-type: none;
+}
+#zaglavlje ul li a{
+    font-size:24px;
+}
+.aktivan{
+    color: #8acbe6;
+    border-bottom: 5px solid #8acbe6;
+    padding-bottom:10px;
+}
+#prikaziLokaciju{
+    width:30%;
+    background-color: #121212;
+    height:inherit;
+    position:absolute;
+    top:0px;
+    right:0px;
+    display:none;   
+}
+#prikaziLokaciju p a{
+    border-bottom:1px solid #878787;
+}
+.gornjaMarginaPTagovaLokacije {
+    margin-top:10px;
+}
+.donjaMarginaLokacije{
+    margin-bottom:30px;
+}
+.levaMarginaLokacije{
+    margin-left:30px;
+}
+#zatvoriIkonica{
+    margin-top: 40px;
+    margin-left:350px;
+    font-size:30px;
+}
+.fontSizeH2{
+    font-size:32px;
+}
+.fontSizeH3{
+    font-size:50px;
+}
+.fontSizeH5{
+    font-size:25px;
+}
+#harmonijaUkusa{
+    margin-top:60px;
+}
+#harmonijaUkusa h1, #harmonijaUkusa h2, #harmonijaUkusa p a i {
+    margin-top:20px;
+}
+#harmonijaUkusa h1{
+    font-size:65px;
+}
+#harmonijaUkusa p a i{
+    font-size:30px;
+    margin-top:50px;
+}
+.sadrzajMain{
+    background-color: #080707;
+}
+.nasloviSadrzaja{
+    font-size:40px; 
+    margin-top:70px;
+    margin-bottom:40px;
+}
+.fontSize20{
+    font-size:20px;
+}
+.fontSize18{
+    font-size:18px;
+}
+.urediTekstSadrzaja{
+    text-align: justify;
+    letter-spacing: 1.4;
+    line-height: 1.7;
+    margin-bottom:40px;
+}
+.sirina70{
+    width:70%;
+}
+.blokSaLinkomKaProizvodima{
+    height:150px;
+    width:100%;
+}
+.sirina100{
+    width:100%;
+}
+.specijalnaPonuda{
+    width:50%;
+    background-color:#080707;
+    height:332px;
+}
+.borderRadius{
+    border-radius:10px ;
+}
+.minionKrofna{
+    width:550px;
+    height:332px;
+    margin-bottom:40px;
+}
+#minionSlika{
+    position:relative;
+    bottom:-80px;
+    left:90px;
+}
+#sovaSlika{
+    position: relative;
+    bottom:-165px;
+    left:40px;
+}
+.oblacak{
+    position:relative;
+    background-color: white;
+    width:30%;
+    padding:5px;
+}
+#oblacakMinion{
+    bottom:175px;
+    left:300px;
+}
+#oblacakSova{
+    bottom:95px;
+    left:245px;
+}
+#sirinaDivaLokala{
+    width:30%;
+    padding:10px;
+}
+#jsonMargina{
+    margin-top:30px;
+}
+#jsonMargina li a:hover{
+    color:#8acbe6;
+}
+#futer{
+    height:500px;
+    background-color:#080707;
+    border-top:1px solid #121212;
+}
+#socijalneMreze ul, #dokumentacija ul{
+    list-style-type: none;
+    margin-top:15px;
+}
+#socijalneMreze ul li, #dokumentacija ul li, .ukloniProizvod{
+    margin-left:20px;
+}
+#kontakt, #socijalneMreze, #dokumentacija {
+    height:100px;
+}
+#kontakt p{
+    margin-top:5px;
+}
+#designedBy, #futerInfo, #krofnePorudzbina{
+    margin-top:60px;
+}
+#designedBy p{
+    margin-left:20px;
+}
+#designedBy p a{
+    border-bottom:1px solid #8acbe6;
+}
+#pozadinskaSlikaProizvoda{
+        background-image: url("../img/proizvodi.jpg");
+}
+#tasterZaPrelazNaProizvode {
+    padding:15px;
+    margin-top:70px;
+    background-color: transparent;
+    color:white;
+    border-radius: 5px;
+    font-family:Englebert;
+}
+#search{
+    margin-left:200px;
+    margin-top:70px;
+    margin-bottom:30px;
+    width:30%;
+    padding:10px;
+    font-style:italic;
+    padding-left:30px;
+    background-color:#121212;
+    border:1px solid #121212;
+    color:white;
+}
+#searchIkonica{
+    position:relative;
+    left:225px
+}
+#blokZaFiltriranje{
+    width:15%;
+    border-right:1px solid #121212;
+}
+#proizvodi{
+    display:flex;
+    flex-wrap:wrap;
+    width:80%;
+}
+.gornjaMarginaFiltriranja {
+    margin-top:35px;
+}
+.gornjaMarginaChbx {
+    margin-top:10px;
+}
+.levaMarginaFilteraISorta {
+    margin-left:25px;
+}
+.urediVrsteKrofni{
+    margin-left:10px;
+}
+#blokZaFiltriranje p{
+    font-size:22px;
+    font-style:italic;
+}
+.urediProizvode {
+    width:21%;
+    height:490px;
+    margin-left:45px;
+    background-color:#121212;
+    padding:10px;
+    margin-bottom:40px;
+}
+.margineOpisa{
+    margin-top:15px;
+    margin-bottom:15px;
+}
+.urediDugme{
+    margin-top:15px;
+    background-color:black;
+    border:1px solid #121212;
+    color:white;
+    padding:10px;
+    width:70%;
+}
+.tekstOpisaCentriraj{
+    text-align:center;
+}
+.visinaOpisa{
+    height:75px;
+}
+#porukaZaNepostojaceProizvode{
+    margin:auto auto;
+}
+#ddlSortiranje{
+    width:26%;
+    background-color: #121212;
+    border:1px solid #121212;
+    color:white;
+    padding:10px;
+    font-family: Englebert;
+    margin-left:10px;
+    font-style:italic;
+}
+#pozadinskaSlikaPorudzbina{
+    background-image: url("../img/pozadinskaSlikaPorudzbine.jpg");
+}
+.oznaciTekstNaslova {
+    color:#8acbe6;
+}
+#koraciPorucivanja{
+    height:450px;
+}
+.obojiPozadinuPlavo {
+    background-color:#8acbe6;
+}
+.urediKorakePorudzbine {
+    width:25%;
+    height:200px;
+}
+#drugaPozadinskaSlikaPorudzbina{
+    background-image: url("../img/dostavaKrofni.jpg");
+    background-size: initial;
+}
+.sirina45{
+    width:45%;
+}
+.sirina90{
+    width:94.2%;
+}
+.margineZaFormu {
+    margin-bottom:28px;
+}
+.urediInputeForme{
+    margin-bottom:10px;
+    background-color: #121212;
+    border:1px solid #121212;
+    font-family:Englebert;
+    font-size:20px;
+    font-style:italic;
+    padding:10px;
+    margin-left:15px;
+    color:white;
+}
+.urediTaster{
+    width:96.5%;
+}
+#porukaZaKontakt{
+    width:94%;
+    resize:none;
+    height:100px;
+}
+#formaKontakta{
+    display:none;
+}
+.obojiCrvenomPolje {
+    border:1px solid red;
+}
+.obojiZelenomPolje {
+    border:1px solid green;
+}
+.obojiCrvenomIspisGreske {
+    color:red;
+    margin-left:15px;
+}
+.porukaForme{
+    display:none;
+    font-style:italic;
+}
+#sadrzajAutora{
+    margin-bottom:100px;
+}
+#sadrzajAutora a{
+    color:#8acbe6;
+    border-bottom:2px solid #8acbe6;
+}
+#hamburger i{
+    display:none;
+}
+#ispraznjenaKorpa{
+    display:none;
+}
+.ubacenUKorpu{
+    font-style:italic;
+}
+.korpaKrofni{
+    margin-top:55px;
+}
+.urediListe{
+    list-style-type: none;
+    border:1px solid #121212;
+    padding:10px;
+    margin-bottom:20px;
+}
+#headerKorpe{
+    list-style-type: none;
+    border-top:1px solid #121212;
+    border-right:1px solid #121212;
+    border-left:1px solid #121212;
+    padding:20px;
+    margin-top:70px;
+}
+.ukloniProizvod, .linkoviKorpeKaDrugimStranicama a span:hover{
+    color:#8acbe6
+}
+.linkoviKorpeKaDrugimStranicama{
+    margin-bottom:35px;
+}

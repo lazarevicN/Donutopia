@@ -1,0 +1,22 @@
+[
+    {
+        "idVrste":1,
+        "vrsta":"Exclusive"
+    },
+    {
+        "idVrste":2,
+        "vrsta":"Supreme"
+    },
+    {
+        "idVrste":3,
+        "vrsta":"Special"
+    },
+    {
+        "idVrste":4,
+        "vrsta":"Classic"
+    },
+    {
+        "idVrste":5,
+        "vrsta":"Extreme"
+    }
+]

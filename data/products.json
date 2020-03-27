@@ -1,0 +1,326 @@
+[
+    {
+        "id":1,
+        "slika":{
+            "src":"img/pistachio.png",
+            "alt":"Pistachio donut"
+        },
+        "slikaKorpe":{
+            "src":"img/pistachioKorpa.png",
+            "alt":"Pistachio donut"
+        },
+        "naziv":"Pistachio",
+        "cena": 1.2,
+        "opis":"Pistachio glaze sprinkled with chopped pistachio, white chocolate",
+        "vrstaKrofne":{
+            "id":1,
+            "vrsta":"Exclusive"
+        }
+    },
+    {
+        "id":2,
+        "slika":{
+            "src":"img/federer.png",
+            "alt":"Federer donut"
+        },
+        "slikaKorpe":{
+            "src":"img/federerKorpa.png",
+            "alt":"Federer donut"
+        },
+        "naziv":"Federer",
+        "cena": 1.2,
+        "opis":"Glaze black chocolate sprinkled with chopped hazelnut, milk chocolate, Ferrero Rocher",
+        "vrstaKrofne":{
+            "id":1,
+            "vrsta":"Exclusive"
+        }
+    },
+    {
+        "id":3,
+        "slika":{
+            "src":"img/sova.png",
+            "alt":"Rio donut"
+        },
+        "slikaKorpe":{
+            "src":"img/sovaKorpa.png",
+            "alt":"Rio donut"
+        },
+        "naziv":"Rio",
+        "cena": 1,
+        "opis":"Filling with creamy vanilla, glaze white and milk chocolate",
+        "vrstaKrofne":{
+            "id":2,
+            "vrsta":"Supreme"
+        }
+    },
+    {
+        "id":4,
+        "slika":{
+            "src":"img/mrnice.png",
+            "alt":"Mr.Nice donut"
+        },
+        "slikaKorpe":{
+            "src":"img/mrniceKorpa.png",
+            "alt":"Mr.Nice donut"
+        },
+        "naziv":"Mr.Nice",
+        "cena": 1,
+        "opis":"Chocolate filling, lemon flavored chocolate glaze",
+        "vrstaKrofne":{
+            "id":2,
+            "vrsta":"Supreme"
+        }
+    },
+    {
+        "id":5,
+        "slika":{
+            "src":"img/kremko.png",
+            "alt":"Kremko donut"
+        },
+        "slikaKorpe":{
+            "src":"img/kremkoKorpa.png",
+            "alt":"Kremko donut"
+        },
+        "naziv":"Kremko",
+        "cena": 1,
+        "opis":"Filling Eurokrem, milk chocolate glaze, Plazma",
+        "vrstaKrofne":{
+            "id":2,
+            "vrsta":"Supreme"
+        }
+    },
+    {
+        "id":6,
+        "slika":{
+            "src":"img/kraljevska.png",
+            "alt":"Kraljevska donut"
+        },
+        "slikaKorpe":{
+            "src":"img/kraljevskaKorpa.png",
+            "alt":"Kraljevska donut"
+        },
+        "naziv":"Kraljevska",
+        "cena": 1.2,
+        "opis":"Glaze milk chocolate, peanut butter, Nutella, Kings Cookie triple chocolate",
+        "vrstaKrofne":{
+            "id":1,
+            "vrsta":"Exclusive"
+        }
+    },
+    {
+        "id":7,
+        "slika":{
+            "src":"img/kinderking.png",
+            "alt":"Kinder king donut"
+        },
+        "slikaKorpe":{
+            "src":"img/kinderkingKorpa.png",
+            "alt":"Kinder king donut"
+        },
+        "naziv":"Kinder king",
+        "cena": 1.2,
+        "opis":"Glaze White Chocolate, Joy Waffle Cream Filling, Milk Chocolate, Kinder Bueno",
+        "vrstaKrofne":{
+            "id":1,
+            "vrsta":"Exclusive"
+        }
+    },
+    {
+        "id":8,
+        "slika":{
+            "src":"img/chocoloco.png",
+            "alt":"Choco loco donut"
+        },
+        "slikaKorpe":{
+            "src":"img/chocolocoKorpa.png",
+            "alt":"Choco loco donut"
+        },
+        "naziv":"Choco loco",
+        "cena": 1,
+        "opis":"Chocolate filling, milk chocolate glaze, chopped hazelnut",
+        "vrstaKrofne":{
+            "id":2,
+            "vrsta":"Supreme"
+        }
+    },
+    {
+        "id":9,
+        "slika":{
+            "src":"img/cookiemonster.png",
+            "alt":"Logo donut"
+        },
+        "slikaKorpe":{
+            "src":"img/cookiemonsterKorpa.png",
+            "alt":"Logo donut"
+        },
+        "naziv":"Cookie Monster Logo",
+        "cena": 0.80,
+        "opis":"White chocolate, blue crumbs, chocolate chip cookie",
+        "vrstaKrofne":{
+            "id":3,
+            "vrsta":"Special"
+        }
+    },
+    {
+        "id":10,
+        "slika":{
+            "src":"img/oreology.png",
+            "alt":"Oreology donut"
+        },
+        "slikaKorpe":{
+            "src":"img/oreologyKorpa.png",
+            "alt":"Oreology donut"
+        },
+        "naziv":"Oreology",
+        "cena": 0.70,
+        "opis":"Glaze white chocolate, Oreo cookie",
+        "vrstaKrofne":{
+            "id":4,
+            "vrsta":"Classic"
+        }
+    },
+    {
+        "id":11,
+        "slika":{
+            "src":"img/mininutella.png",
+            "alt":"Mini Nutella donut"
+        },
+        "slikaKorpe":{
+            "src":"img/mininutellaKorpa.png",
+            "alt":"Mini Nutella donut"
+        },
+        "naziv":"Mini Nutella",
+        "cena": 0.60,
+        "opis":"Nutella glaze sprinkled with white chocolate",
+        "vrstaKrofne":{
+            "id":4,
+            "vrsta":"Classic"
+        }
+    },
+    {
+        "id":12,
+        "slika":{
+            "src":"img/yourjam.png",
+            "alt":"Your jam donut"
+        },
+        "slikaKorpe":{
+            "src":"img/yourjamKorpa.png",
+            "alt":"Your jam donut"
+        },
+        "naziv":"Your jam",
+        "cena": 0.80,
+        "opis":"Filling the forest fruit, sprinkled with powdered sugar",
+        "vrstaKrofne":{
+            "id":3,
+            "vrsta":"Special"
+        }
+    },
+    {
+        "id":13,
+        "slika":{
+            "src":"img/nutty.png",
+            "alt":"Nutty donut"
+        },
+        "slikaKorpe":{
+            "src":"img/nuttyKorpa.png",
+            "alt":"Nutty donut"
+        },
+        "naziv":"Nutty",
+        "cena": 0.80,
+        "opis":"Nutella filling, glaze milk chocolate and black chocolate",
+        "vrstaKrofne":{
+            "id":3,
+            "vrsta":"Special"
+        }
+    },
+    {
+        "id":14,
+        "slika":{
+            "src":"img/ring.png",
+            "alt":"Ring donut"
+        },
+        "slikaKorpe":{
+            "src":"img/ringKorpa.png",
+            "alt":"Ring donut"
+        },
+        "naziv":"Ring",
+        "cena": 0.70,
+        "opis":"Glaze milk chocolate, colorful crumbs",
+        "vrstaKrofne":{
+            "id":4,
+            "vrsta":"Classic"
+        }
+    },
+    {
+        "id":15,
+        "slika":{
+            "src":"img/donutella.png",
+            "alt":"Donutella donut"
+        },
+        "slikaKorpe":{
+            "src":"img/donutellaKorpa.png",
+            "alt":"Donutella donut"
+        },
+        "naziv":"Donutella",
+        "cena": 2.2,
+        "opis":"Nutella filling, nutella frosting sprinkled with coco leaves and crispy coco balls, coco rolls and Toffifee",
+        "vrstaKrofne":{
+            "id":5,
+            "vrsta":"Extreme"
+        }
+    },
+    {
+        "id":16,
+        "slika":{
+            "src":"img/gameover.png",
+            "alt":"Game over donut"
+        },
+        "slikaKorpe":{
+            "src":"img/gameoverKorpa.png",
+            "alt":"Game over donut"
+        },
+        "naziv":"Game over",
+        "cena": 2.2,
+        "opis":"Nutella and white chocolate filling, Nutella and white chocolate icing, Raffaello, Ferrero Rocher, Milka sticks, Kitkat",
+        "vrstaKrofne":{
+            "id":5,
+            "vrsta":"Extreme"
+        }
+    },
+    {
+        "id":17,
+        "slika":{
+            "src":"img/rafaelo.png",
+            "alt":"Rafaelo donut"
+        },
+        "slikaKorpe":{
+            "src":"img/rafaeloKorpa.png",
+            "alt":"Rafaelo donut"
+        },
+        "naziv":"Rafaelo",
+        "cena": 1.2,
+        "opis":"White chocolate glaze, white chocolate flakes, milky white chocolate, Rafaelo",
+        "vrstaKrofne":{
+            "id":1,
+            "vrsta":"Exclusive"
+        }
+    },
+    {
+        "id":18,
+        "slika":{
+            "src":"img/snickers.png",
+            "alt":"Snickers donut"
+        },
+        "slikaKorpe":{
+            "src":"img/snickersKorpa.png",
+            "alt":"Snickers donut"
+        },
+        "naziv":"Snickers",
+        "cena": 1.2,
+        "opis":"Nutella glaze, white chocolate flakes, peanut butter, snickers",
+        "vrstaKrofne":{
+            "id":5,
+            "vrsta":"Extreme"
+        }
+    }
+]
