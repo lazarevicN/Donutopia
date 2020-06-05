@@ -1,6 +1,6 @@
 window.onload = function(){
     var strana = window.location.pathname;
-    if(strana == "/index.html" || strana == "/products.html" || strana == "/order.html" || strana =="/author.html" || strana == "/cart.html" || strana == "/Donutopia/" || strana == "/Donutopia/index.html" || strana == "/Donutopia/products.html" || strana == "/Donutopia/order.html" || strana =="/Donutopia/author.html" || strana == "/Donutopia/cart.html"){
+    if(strana == "/index.html" || strana == "/products.html" || strana == "/order.html" || strana =="/author.html" || strana == "/cart.html" || strana == "/Donutopia" || strana == "/Donutopia/index.html" || strana == "/Donutopia/products.html" || strana == "/Donutopia/order.html" || strana =="/Donutopia/author.html" || strana == "/Donutopia/cart.html"){
         napraviZaglavlje();
         urediPTagoveLokacije();
         zatvoriLokaciju();
@@ -10,7 +10,7 @@ window.onload = function(){
         ispisDokumentacije();
         $("#hamburger").click(responsiveZaglavlje)
     }
-    if(strana =="/index.html" || strana == "/Donutopia/index.html" || strana == "/Donutopia/"){
+    if(strana =="/index.html" || strana == "/Donutopia/index.html" || strana == "/Donutopia"){
         animacijaBlokovaKojiVodeNaDrugeStraneSajta();
     }
     if(strana =="/products.html" || strana == "/Donutopia/products.html"){
